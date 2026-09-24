@@ -3978,7 +3978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 146.812 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -4392,7 +4392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 209.2452 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4634,7 +4634,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 245.618 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -4716,7 +4716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 155.702 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -4951,7 +4951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 242.8748 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5032,7 +5032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 254.3048 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5113,7 +5113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 72.39 82.2452 0)
 			(hide yes)
 			(show_name no)
@@ -5195,7 +5195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 164.592 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -5510,7 +5510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 129.032 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -5670,7 +5670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 235.9152 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5843,7 +5843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 120.142 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -6250,7 +6250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.922 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -6506,7 +6506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 262.5852 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6664,7 +6664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 229.87 27.178 90)
 			(hide yes)
 			(show_name no)
@@ -6744,7 +6744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 74.93 36.83 0)
 			(hide yes)
 			(show_name no)
