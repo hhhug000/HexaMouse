@@ -760,12 +760,6 @@
 		(path "/1a445335-1a7a-45ee-aa42-e4a8b158b5f3")
 		(sheetname "/")
 		(sheetfile "HexaMouse.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "6" "5" "4" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -982,6 +976,12 @@
 					(thickness 0.11)
 				)
 			)
+		)
+		(point
+			(at 53.435 38)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "0b9edc17-f0b0-4235-a74d-03ea8061db1a")
 		)
 		(pad "1" smd roundrect
 			(at -1.1375 -0.95)
@@ -1648,12 +1648,6 @@
 		(path "/ab162aa4-024e-4dc8-b055-ad39426882f9")
 		(sheetname "/")
 		(sheetfile "HexaMouse.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "6" "5" "4" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1870,6 +1864,12 @@
 					(thickness 0.11)
 				)
 			)
+		)
+		(point
+			(at 53.435 42.625)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "adb9ffea-4011-4911-b1a5-5d8b03deea47")
 		)
 		(pad "1" smd roundrect
 			(at -1.1375 -0.95)
@@ -5123,7 +5123,7 @@
 		(property "Reference" "U4"
 			(at 0 -2.4 0)
 			(layer "F.SilkS")
-			(uuid "450bfc14-1d7e-4de4-88b9-b95f3fef6ed5")
+			(uuid "91503509-4fa4-4087-b595-df77aea37f47")
 			(effects
 				(font
 					(size 1 1)
@@ -5134,7 +5134,7 @@
 		(property "Value" "TLV493D"
 			(at 0 2.4 0)
 			(layer "F.Fab")
-			(uuid "f7cd4f27-0244-4dcd-86fd-9a6c0690d537")
+			(uuid "4971be01-e839-49bb-bac6-75860767e19b")
 			(effects
 				(font
 					(size 1 1)
@@ -5146,7 +5146,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "898c4b92-3d3b-4ab7-bb1f-60fa96355487")
+			(uuid "2fd1c26b-fd17-4c0f-bc8e-0638f303d412")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,7 +5157,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d68ea01-eb18-496d-b52f-5742217b7dc1")
+			(uuid "92b903df-26ce-4f64-81c7-000b7858558d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,12 +5193,6 @@
 		(path "/becd8070-e75d-4f4a-95a1-b2be6c9503e1")
 		(sheetname "/")
 		(sheetfile "HexaMouse.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "6" "5" "4" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5415,6 +5409,36 @@
 					(thickness 0.11)
 				)
 			)
+		)
+		(point
+			(at 52.935 43.9)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "156025fc-57d8-4200-8441-d4cf73d586d5")
+		)
+		(point
+			(at 52.935 43.9)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "ae7d78b7-b352-4eed-a645-f498c3b7922d")
+		)
+		(point
+			(at 52.935 43.9)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "ef329834-2d5f-43d5-a1a0-355ef73fc130")
+		)
+		(point
+			(at 52.935 43.9)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "fbe0b63c-aef4-4607-8ae0-4261cf0a23f5")
+		)
+		(point
+			(at 53.435 47.25)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "56bbd964-1146-4f98-b1ce-26835f6c9341")
 		)
 		(pad "1" smd roundrect
 			(at -1.1375 -0.95)
