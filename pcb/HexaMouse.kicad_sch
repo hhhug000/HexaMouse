@@ -4011,6 +4011,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 148.59 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5762cbd7-a499-4f4b-a716-801dcf05cd59")
 		)
@@ -4059,7 +4070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical_SMD_Pin1Left"
 			(at 71.12 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4082,6 +4093,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 71.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42379199"
 			(at 71.12 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4178,6 +4200,17 @@
 		)
 		(property "Description" "Low voltage 8-channel I2C switch with reset, TSSOP-24"
 			(at 219.71 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C130026"
+			(at 219.71 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,6 +4365,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C126688"
+			(at 201.93 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "7cfd76a5-abee-4643-b834-739dfe188f8f")
 		)
@@ -4415,6 +4459,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 208.28 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1711"
 			(at 208.28 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4552,7 +4607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 87.63 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4575,6 +4630,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 87.63 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C295747"
 			(at 87.63 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4667,6 +4733,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17673"
+			(at 243.84 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44d77aed-ba30-455b-bf9b-f6c734637961")
 		)
@@ -4739,6 +4816,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 157.48 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 157.48 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4984,6 +5072,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1711"
+			(at 243.84 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "570fa993-21c8-4455-8cb2-e6938f58b783")
 		)
@@ -5055,6 +5154,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 255.27 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1711"
 			(at 255.27 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5146,6 +5256,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 76.2 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "463224db-f19c-4e22-968c-d7f7dd4a902a")
 		)
@@ -5218,6 +5339,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 166.37 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 166.37 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5543,6 +5675,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 130.81 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8bb052b8-7e15-41a9-8601-ba7c92bd707f")
 		)
@@ -5703,6 +5846,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1711"
+			(at 234.95 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3f186691-66c6-486e-839d-b51d6709d5fb")
 		)
@@ -5773,6 +5927,17 @@
 		)
 		(property "Description" "Low power 3D magnetic sensor, I2C interface, SOT-23-6"
 			(at 228.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C126688"
+			(at 228.6 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5866,6 +6031,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 121.92 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 121.92 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6111,6 +6287,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C126688"
+			(at 255.27 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "07c0f201-bfa5-4de9-afa6-d76ffa8ad9e9")
 		)
@@ -6283,6 +6470,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 139.7 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8b469370-a866-4518-91cb-2091b007fd77")
 		)
@@ -6331,7 +6529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 92.71 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6354,6 +6552,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 92.71 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42379199"
 			(at 92.71 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6539,6 +6748,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1711"
+			(at 261.62 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "657428b2-f90b-4881-9d83-cad49b2b2014")
 		)
@@ -6697,6 +6917,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17673"
+			(at 229.87 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "086319d0-f832-482e-a8b3-8102a819258f")
 		)
@@ -6777,6 +7008,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C221841"
+			(at 74.93 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d6a5f7ab-0100-41a1-9b09-7aa4f9440cb2")
 		)
@@ -6826,7 +7068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 64.77 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6849,6 +7091,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 64.77 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C295747"
 			(at 64.77 41.91 0)
 			(hide yes)
 			(show_name no)
