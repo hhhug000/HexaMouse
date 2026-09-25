@@ -4607,7 +4607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 87.63 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4640,7 +4640,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C295747"
+		(property "LCSC" "C160402"
 			(at 87.63 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7068,7 +7068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 64.77 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7101,7 +7101,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C295747"
+		(property "LCSC" "C160402"
 			(at 64.77 41.91 0)
 			(hide yes)
 			(show_name no)
