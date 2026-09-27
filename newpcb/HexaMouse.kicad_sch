@@ -3957,7 +3957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 28.448 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -3980,6 +3980,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 26.67 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4276,7 +4287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.3252 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4299,6 +4310,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 86.36 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 86.36 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4670,7 +4692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 78.74 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4693,6 +4715,17 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 78.74 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C221841"
 			(at 78.74 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4831,7 +4864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 64.77 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4854,6 +4887,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 64.77 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 64.77 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4935,6 +4979,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 168.91 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2761795"
 			(at 168.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5235,7 +5290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 21.59 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5258,6 +5313,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 21.59 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 21.59 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5311,7 +5377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 21.59 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5334,6 +5400,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 21.59 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 21.59 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5609,6 +5686,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2649492"
+			(at 247.65 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "815beb42-e88f-431c-bc6d-09ed58dc2db9")
 		)
@@ -5702,7 +5790,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 28.448 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -5725,6 +5813,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 26.67 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5806,6 +5905,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2761795"
 			(at 149.86 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5949,7 +6059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:VQFN-16_L3.0-W3.0-P0.50-BL-EP1.7"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.0752 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5972,6 +6082,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 118.11 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 118.11 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6086,6 +6207,17 @@
 		)
 		(property "LCSC Part" "C2649492"
 			(at 190.5 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2649492"
+			(at 190.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6266,7 +6398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 135.89 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -6290,6 +6422,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 135.89 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23182"
+			(at 135.89 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6491,6 +6634,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2649492"
+			(at 133.35 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "11ff7697-1ac2-4e56-9fbc-61e7f0ea13b1")
 		)
@@ -6664,7 +6818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 201.6252 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6687,6 +6841,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 200.66 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7248,6 +7413,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2761795"
+			(at 187.96 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "33e16c05-683b-4805-bd96-767a4d30bbe2")
 		)
@@ -7380,7 +7556,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 92.71 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7403,6 +7579,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 92.71 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 92.71 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7462,7 +7649,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P-B"
 			(at 246.38 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7486,6 +7673,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 251.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4364471"
+			(at 251.46 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7859,7 +8057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:VQFN-16_L3.0-W3.0-P0.50-BL-EP1.7"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 233.3752 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7882,6 +8080,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 232.41 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 232.41 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7962,6 +8171,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 54.61 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -8294,7 +8514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P-B"
 			(at 232.41 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8318,6 +8538,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 237.49 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4364471"
+			(at 237.49 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8534,7 +8765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 21.59 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8557,6 +8788,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 21.59 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 21.59 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8609,7 +8851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:VQFN-16_L3.0-W3.0-P0.50-BL-EP1.7"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.2252 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8632,6 +8874,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 175.26 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 175.26 54.61 0)
 			(hide yes)
 			(show_name no)
