@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.6,
-          "width": 1.325
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -156,7 +156,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -559,15 +559,15 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
           "show": true
         },
         {
@@ -611,32 +611,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -675,17 +657,17 @@
     "top_level_sheets": [
       {
         "filename": "HexaMouse.kicad_sch",
-        "name": "Root",
-        "uuid": "deae72d5-0817-48b9-87be-e09fd68b7fc0"
+        "name": "HexaMouse",
+        "uuid": "d1a35949-13f6-4285-9b2b-90db6a320254"
       }
     ],
-    "used_designators": "H1-3,SW1,J1-2,C1-6,R1-8,#FLG1-2,#PWR1-11,U1-5",
+    "used_designators": "H1-3,R1-2,#FLG1-2,#PWR1-28,C1-3,D1,U1-5",
     "variants": []
   },
   "sheets": [
     [
-      "deae72d5-0817-48b9-87be-e09fd68b7fc0",
-      "Root"
+      "d1a35949-13f6-4285-9b2b-90db6a320254",
+      "HexaMouse"
     ]
   ],
   "text_variables": {},
