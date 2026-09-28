@@ -3170,6 +3170,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 86.36) (xy 73.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5756b1-655c-4e4b-879a-2b13968860e3")
+	)
+	(wire
+		(pts
 			(xy 262.89 29.21) (xy 264.16 29.21)
 		)
 		(stroke
@@ -3250,16 +3260,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 86.36) (xy 87.63 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99ebd392-7be5-4ee9-9077-eb9a5d740cf7")
-	)
-	(wire
-		(pts
 			(xy 85.09 50.8) (xy 86.36 50.8)
 		)
 		(stroke
@@ -3297,6 +3297,16 @@
 			(type default)
 		)
 		(uuid "aedb5b5d-3227-4be1-90df-120936445bcf")
+	)
+	(wire
+		(pts
+			(xy 83.82 86.36) (xy 87.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19d6b42-cd40-4e2f-ac48-0832b4db04c2")
 	)
 	(wire
 		(pts
@@ -3427,16 +3437,6 @@
 			(type default)
 		)
 		(uuid "caedc2ac-6085-40e7-96d1-a07b33b3e8ed")
-	)
-	(wire
-		(pts
-			(xy 73.66 86.36) (xy 69.85 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0a1bbef-d9d8-4f88-b2a1-f176ede225f1")
 	)
 	(wire
 		(pts
@@ -4835,7 +4835,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 64.77 86.36 0)
+		(at 64.77 88.9 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4845,7 +4846,7 @@
 		(dnp no)
 		(uuid "3564daa1-4a90-49e5-932b-3e3e1fd3d07f")
 		(property "Reference" "J1"
-			(at 63.246 86.614 0)
+			(at 63.246 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4855,7 +4856,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 56.515 88.646 0)
+			(at 56.515 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4865,7 +4866,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 64.77 86.36 0)
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4876,7 +4877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 86.36 0)
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4887,7 +4888,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 64.77 86.36 0)
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4898,7 +4899,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 64.77 86.36 0)
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7526,8 +7527,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 92.71 86.36 0)
-		(mirror y)
+		(at 92.71 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7537,7 +7537,7 @@
 		(dnp no)
 		(uuid "bc3251a0-5b04-4608-b8df-37f8f6057d03")
 		(property "Reference" "J2"
-			(at 94.742 86.36 0)
+			(at 94.742 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7547,7 +7547,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 101.346 88.646 0)
+			(at 101.346 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7557,7 +7557,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 92.71 86.36 0)
+			(at 92.71 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7568,7 +7568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 86.36 0)
+			(at 92.71 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7579,7 +7579,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 92.71 86.36 0)
+			(at 92.71 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7590,7 +7590,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 92.71 86.36 0)
+			(at 92.71 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
