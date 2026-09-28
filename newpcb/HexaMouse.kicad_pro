@@ -534,6 +534,10 @@
       {
         "netclass": "Power",
         "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(J1*"
       }
     ]
   },
