@@ -7,9 +7,28 @@ Adafruit_MLX90393 mag0, mag1, mag2;
 Adafruit_MLX90393* mags[N] = {&mag0, &mag1, &mag2};
 const uint8_t addresses[N] = {0x0C, 0x0D, 0x0E};
 
-// Running baseline tracker for dynamic centering across all axes (Bx, By, Bz)
+const float sensorAngles[N] = { 
+  0.0f,               // 0°
+  2.0943951f,         // 120°
+  4.1887902f          // 240°
+};
+
 float runningBase[N][3] = {0};
 bool initialized = false;
+
+// Strict binary packet structure matching Python unpacker
+#pragma pack(push, 1)
+struct SensorPacket {
+  uint8_t magic = 0xAA;
+  float posX;
+  float posY;
+  float posZ;
+  float tiltX;
+  float tiltY;
+  float yaw;
+  uint8_t checksum;
+};
+#pragma pack(pop)
 
 void setup() {
   Serial.begin(115200);
@@ -29,13 +48,19 @@ void setup() {
 }
 
 void loop() {
-  float curr[N][3]; // [sensor][0:Bx, 1:By, 2:Bz]
-  
+  // Check for manual reset command from host
+  if (Serial.available()) {
+    char c = Serial.read();
+    if (c == 'n' || c == 'N') {
+      initialized = false;
+    }
+  }
+
+  float curr[N][3]; 
   for (int i = 0; i < N; i++) {
     if (!mags[i]->readData(&curr[i][0], &curr[i][1], &curr[i][2])) return;
   }
 
-  // Initialize dynamic baselines instantly on first read
   if (!initialized) {
     for (int i = 0; i < N; i++) {
       for (int axis = 0; axis < 3; axis++) {
@@ -45,7 +70,7 @@ void loop() {
     initialized = true;
   }
 
-  // Alpha filter for dynamic DC bias removal
+  // Alpha filter for dynamic DC bias cancellation
   float alpha = 0.03f;
   float dBx[N], dBy[N], dBz[N];
 
@@ -58,7 +83,7 @@ void loop() {
     dBz[i] = curr[i][2] - runningBase[i][2];
   }
 
-  // 1. Average horizontal and vertical shifts
+  // 1. Translation (Horizontal Bx/By shifts + Lift)
   float rawX = 0.0f;
   float rawY = 0.0f;
   float totalLift = 0.0f;
@@ -72,24 +97,47 @@ void loop() {
   rawY /= 3.0f;
   totalLift /= 3.0f;
 
-  // --- DEVICE-SIDE AXIS REMAPPING ---
-  // Screen X (Left/Right slide) = -rawY
-  // Screen Y (Up/Down lift)     = -totalLift
-  // World Z (Depth forward/back) = rawX
   float posX = -rawY;
   float posY = -totalLift;
   float posZ = rawX;
 
-  // 2. Differential Tilt
-  float tiltX = dBz[1] - dBz[2];
-  float tiltY = (2.0f * dBz[0] - dBz[1] - dBz[2]) * 0.57735f;
+  // 2. Orthogonal Tilt Projection (120° spatial derivative)
+  float tiltX = 0.0f;
+  float tiltY = 0.0f;
+  for (int i = 0; i < N; i++) {
+    tiltX += dBz[i] * cosf(sensorAngles[i]);
+    tiltY += dBz[i] * sinf(sensorAngles[i]);
+  }
+  tiltX *= (2.0f / 3.0f);
+  tiltY *= (2.0f / 3.0f);
 
-  // Stream pre-mapped values directly
-  Serial.print("X:"); Serial.print(posX, 2); Serial.print("\t");
-  Serial.print("Y:"); Serial.print(posY, 2); Serial.print("\t");
-  Serial.print("Z:"); Serial.print(posZ, 2); Serial.print("\t");
-  Serial.print("TiltX:"); Serial.print(tiltX, 2); Serial.print("\t");
-  Serial.print("TiltY:"); Serial.println(tiltY, 2);
+  // 3. Twist / Yaw (Tangential horizontal curl)
+  float yaw = 0.0f;
+  for (int i = 0; i < N; i++) {
+    yaw += (-dBx[i] * sinf(sensorAngles[i]) + dBy[i] * cosf(sensorAngles[i]));
+  }
+  yaw /= 3.0f;
+  yaw = -yaw; // Inverted to match correct physical rotation sense
+
+  // Pack binary payload
+  SensorPacket pkt;
+  pkt.posX = posX;
+  pkt.posY = -posY;
+  pkt.posZ = posZ;
+  pkt.tiltX = tiltX;
+  pkt.tiltY = tiltY;
+  pkt.yaw = yaw;
+
+  // Calculate XOR Checksum over the 24 payload bytes
+  uint8_t* ptr = (uint8_t*)&pkt.posX;
+  uint8_t crc = 0;
+  for (int i = 0; i < 24; i++) {
+    crc ^= ptr[i];
+  }
+  pkt.checksum = crc;
+
+  // Stream raw binary frame
+  Serial.write((uint8_t*)&pkt, sizeof(SensorPacket));
 
   delay(15);
 }
